@@ -20,7 +20,7 @@ const debounce = (
 };
 
 const searchState = reactive<{
-  isLoading: boolean
+  isLoading: boolean;
   field: null | string;
   items: null | User[];
   fetch: () => void;
@@ -66,7 +66,7 @@ watch(
         <ul v-if="searchState.items?.length">
           <li v-for="item in searchState.items" :key="item.url">
             <router-link
-                :to="{ name: 'peoples.show', params: { id: useGetID(item.url) } }"
+              :to="{ name: 'peoples.show', params: { id: useGetID(item.url) } }"
             >
               <h5>{{ item.name }}</h5>
             </router-link>

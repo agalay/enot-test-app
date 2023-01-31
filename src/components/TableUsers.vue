@@ -11,7 +11,7 @@ const props = defineProps<{
 const favoriteUsers = ref(
   new Set<number>(JSON.parse(localStorage.getItem("favorites")) || [])
 );
-
+console.log(1)
 const store = useStore();
 const users = computed<User[]>(() => store.state.users);
 const isLoading = computed<boolean>(() => store.state.isLoading);

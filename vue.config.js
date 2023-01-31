@@ -1,3 +1,3 @@
 module.exports = {
- publicPath: "/enot-test-app/"
- }
+  publicPath: "/enot-test-app/",
+};

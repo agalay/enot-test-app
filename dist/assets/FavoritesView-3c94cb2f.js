@@ -1,0 +1,1 @@
+import{_ as o}from"./TableUsers.vue_vue_type_script_setup_true_lang-b341215c.js";import{d as e,o as r,s as t}from"./index-11761076.js";import"./useGetID-bd780aaa.js";const m=e({__name:"FavoritesView",setup(a){return(s,n)=>(r(),t(o,{"only-favorites":""}))}});export{m as default};
